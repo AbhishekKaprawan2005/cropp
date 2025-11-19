@@ -12,8 +12,6 @@ import numpy as np
 import joblib
 from tensorflow.keras.models import load_model
 
-
-
 def load_all():
     model = load_model("crop_model.keras")
     scaler = joblib.load("scaler.pkl")
